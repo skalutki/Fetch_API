@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
+    <title>Fetch_API</title>
     <meta name="description" content="Your project description" />
     <!-- Title -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="Fetch_API" />
     <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="Strona ta powstała by pokazać sposób działania Fetch API na przykładzie własnych projektów, które zostaną automatycznie zaimportowane z serwera Github.com"
+    />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
     <meta property="og:url" content="" />
     <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
@@ -145,9 +148,16 @@
     />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <header class="header">
+      <h1 class="header__title">Repozytoria</h1>
+      <p class="header__description">
+        Witam Cię na stronie, która automatycznie wczytuje z serwera Github moje
+        projekty i dodaje je w kolejności od najnowszego.
+      </p>
+    </header>
+    <main class="main">
+      <section class="project project--js"></section>
+    </main>
+    <footer class="footer">Stopka projektu</footer>
   </body>
 </html>
