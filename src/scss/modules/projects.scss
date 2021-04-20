@@ -1,0 +1,29 @@
+.projects {
+  display: grid;
+  grid-template-columns: 320px;
+  margin: 8px auto 24px;
+}
+.project {
+  background-color: #a1d2ce;
+  //color: #fefefe;
+  border-radius: 16px;
+  margin: 8px 16px 8px 8px;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+  &__title {
+    text-align: center;
+  }
+  &__description {
+    padding: 0 6px;
+  }
+  &__footer {
+    padding: 8px 16px;
+    border-top: darkgray solid 1px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer__link {
+  text-decoration: none;
+  color: orangered;
+}

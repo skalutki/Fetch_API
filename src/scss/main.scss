@@ -2,12 +2,37 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import "modules/projects.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #6b6a6a;
+  color: black;
   min-height: 100vh;
+  max-width: 320px;
+  width: 100%;
+}
+
+.header {
+  &__title {
+    text-align: center;
+  }
+  &__description {
+    padding: 4px;
+  }
+}
+
+.footer {
+  display: block;
+  padding-left: 4px;
+  background-color: #5f5e5e;
 }
